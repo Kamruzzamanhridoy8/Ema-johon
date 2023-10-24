@@ -1,0 +1,31 @@
+.sigle-product{
+    width: 210px;
+    height: 350px;
+    border-radius: 15px;
+    border: 2px solid rgb(187, 186, 188);
+    box-shadow: 2px 2px 35px 0.1px rgb(129, 130, 131);
+    padding: 10px;
+    display: grid;
+    align-items: center;
+
+
+}
+.sigle-product>img{
+    width: 200px;
+    border-radius: 15px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+
+
+
+}
+h4,p{
+    margin: 0px;
+}
+.sigle-product>button{
+    margin-top: 10px;
+    background-color: rgb(179, 133, 49);
+}
+.sigle-product>button:hover{
+    background-color: #ffa500;
+}

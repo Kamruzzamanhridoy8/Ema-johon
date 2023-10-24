@@ -1,0 +1,20 @@
+.shop-page{
+    display: grid;
+    grid-template-columns: 10fr  2fr;
+    margin: 10px 20px 0px 100px;
+}
+.products{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 25px;
+}
+.order-info{
+    background-color: rgb(204, 144, 32);
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    height: 600px;
+    margin-top: 80px;
+    position: sticky;
+    top: 0;
+}
