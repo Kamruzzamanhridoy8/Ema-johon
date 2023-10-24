@@ -1,0 +1,19 @@
+.header{
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 0px 0px 0px;
+    padding: 10px 100px 0px 100px;
+    background-color: rgb(52, 50, 50);
+
+}
+.header-contant>a{
+    color: white;
+    margin-right: 30px;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+.header-contant>a:hover{
+    color: orange;
+}
